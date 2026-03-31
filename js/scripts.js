@@ -39,13 +39,15 @@ $(document).ready(function() {
             totalItems = totalItems + item.quantity;
             totalPrice = totalPrice + (item.price * item.quantity);
         });
-        
-
-        cartSection.append(
-            '<p class="text-red-500 text-2xl font-bold"> Your Cart</p>'
-
-        );
     
+        cartSection.append(
+            '<div class="relative mb-3">' +  
+
+                    '<p class="flex items-center justify-center text-red-500 text-2xl font-bold">' + 'Your Cart' +
+                    '</p>' +
+                    '<img src="img/cart.jfif" class="w-full" alt="cart image">' +
+            '</div>'
+        );
         //Looping to Display items
         cart.forEach(function(item) {
             cartSection.append(
@@ -121,7 +123,7 @@ $(document).ready(function() {
             const name= $(this).data("name");
     
             cart= cart.filter(function(item) {
-                return item.name != name;
+                return item.name !== name;
             });
             updateCart();
         });
