@@ -10,7 +10,7 @@ $(document).ready(function() {
     // Find an item
     const checkItem= cart.find(function(item) {
         return item.name === name;
-    });sshjqisii
+    });
     
     //Checks if the item exist and if it exists collects it
     if (checkItem) {
