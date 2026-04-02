@@ -1,4 +1,4 @@
-# Interactive Shopping Cart System
+my# Interactive Shopping Cart System
 By AYO-OLONILUA AYOMIPE
 
 # TECHNOLOGIES USED
@@ -30,4 +30,4 @@ A dynamic shopping cart system that lets users add, update, and manage items wit
 
 - oloniluaayomipe@gmail.com
 - 07033747755
-- 09166132036# Interactive-Shopping-Cart-System
+- 09166132036
