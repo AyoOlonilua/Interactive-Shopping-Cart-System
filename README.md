@@ -1,4 +1,4 @@
-my# Interactive Shopping Cart System
+# Interactive Shopping Cart System
 By AYO-OLONILUA AYOMIPE
 
 # TECHNOLOGIES USED
